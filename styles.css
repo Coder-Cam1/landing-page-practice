@@ -5,13 +5,20 @@
     box-sizing: border-box;
 }
 
-nav, .s-1 {
+nav, .s-1, .hero-wrapper
+{
     display: flex;
+}
+
+nav, .s-1 {
     background-color: #1f2937;
 }
 
-nav {
+h1 {
     color: white;
+}
+
+nav {
     align-items: center;
     padding: 1em;
     justify-content: space-between;
@@ -38,4 +45,24 @@ a {
     height: 50vh;
     justify-content: center;
     align-items: center;
+}
+
+.hero-wrapper {
+    max-width: 60vh;
+}
+
+.hero {
+    max-width: 40%;
+    display: grid;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.hero button {
+    justify-self: start;
+}
+
+.hero-img img {
+    width: 400px;
+    height: auto;
 }
