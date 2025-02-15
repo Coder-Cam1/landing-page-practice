@@ -137,3 +137,24 @@ a {
     align-self: flex-end;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8em;
+    background-color: white;
+}
+
+.section-four-container {
+    display: flex;
+    background-color: #3882f6;
+    width: 1200px;
+    padding: 4em;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.cta-container {
+   color: white;
+   max-width: 600px;
+}
