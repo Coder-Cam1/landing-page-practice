@@ -13,12 +13,13 @@ nav,
 ul, 
 .s-1-content-wrapper, 
 .section-three, 
-.section-three-container
+.section-three-container, 
+.section-four, 
+.section-four-container,
+button
 {
     display: flex;
 }
-
-
 
 nav, .s-h {
     background-color: #1f2937;
@@ -149,7 +150,6 @@ a {
 }
 
 .section-four {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 8em;
@@ -157,7 +157,6 @@ a {
 }
 
 .section-four-container {
-    display: flex;
     background-color: #3882f6;
     width: 1200px;
     padding: 4em;
@@ -189,7 +188,6 @@ footer {
 }
 
 button {
-    display: flex;
     justify-content: center;
     align-content: center;
     width: 100px;
