@@ -82,6 +82,7 @@ a {
 
 .s-1 {  
     color: black;
+    font-size: 36px;
 }
 
 .outline {
@@ -109,3 +110,30 @@ a {
     flex: 1;
     text-align: center;
 }
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #e5e7eb;
+}
+
+.section-three-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.section-three-container p {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.section-three-container h3 {
+    margin-top: .5em;
+    align-self: flex-end;
+}
+
