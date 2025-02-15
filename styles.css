@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-nav, .s-1, .hero-wrapper
+nav, .s-h, .hero-wrapper
 {
     display: flex;
 }
 
-nav, .s-1 {
+nav, .s-h {
     background-color: #1f2937;
 }
 
@@ -41,7 +41,7 @@ a {
     padding: 1em;
 }
 
-.s-1 {
+.s-h {
     height: 50vh;
     justify-content: center;
     align-items: center;
