@@ -158,3 +158,10 @@ a {
    color: white;
    max-width: 600px;
 }
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
