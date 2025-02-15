@@ -45,21 +45,32 @@ a {
     height: 50vh;
     justify-content: center;
     align-items: center;
+    
 }
 
 .hero-wrapper {
-    max-width: 60vh;
+    justify-content: center;
+    max-width: 900px;
 }
 
 .hero {
     max-width: 40%;
     display: grid;
-    flex-shrink: 0;
-    align-items: center;
+    flex-shrink: 0; 
+    align-content: center;
+    gap: 5px;
 }
 
 .hero button {
     justify-self: start;
+    background-color: #3882f6;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
 }
 
 .hero-img img {
